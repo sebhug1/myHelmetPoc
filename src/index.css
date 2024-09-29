@@ -1,0 +1,80 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgb(0, 0, 0);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.box:nth-child(3n + 1) {
+  grid-column: 1;
+}
+
+.box:nth-child(3n + 2) {
+  grid-column: 2;
+}
+
+.box:nth-child(3n + 3) {
+  grid-column: 3;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.allInputs {
+  font-size: 1em;
+  outline: none;
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+  width: 280px;
+  position: relative;
+  margin: 10px 0;
+  border: 1px solid #e2e2e2;
+  outline: medium none;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.form-container2 {
+  display: contents;
+}
+
+.form-container2 label {
+  grid-column: 1;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.form-container2 input {
+  grid-column: 2;
+}
+
+.submit-btn {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
